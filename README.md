@@ -57,7 +57,7 @@
 
         import java.util.Scanner;
 
-class Node {
+    class Node {
     int data;
     Node next;
 
@@ -65,9 +65,9 @@ class Node {
         data = d;
         next = null;
     }
-}
+    }
 
-class MyLinkedList {
+    class MyLinkedList {
     private Node head;
 
     public MyLinkedList() {
